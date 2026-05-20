@@ -1,4 +1,4 @@
-##Estrutura de Árvore Binária Genérica em Java
+## Estrutura de Árvore Binária Genérica em Java
 
 Este repositório contém a implementação de uma estrutura de dados de **Árvore Binária Genérica**, desenvolvida em Java como parte das atividades práticas da disciplina. 
 

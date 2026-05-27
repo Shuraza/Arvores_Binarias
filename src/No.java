@@ -1,18 +1,13 @@
-public class No<T extends Comparable<T>> {
-    private T dado;
-    private No<T> esquerdo;
-    private No<T> direito;
+public class No {
+    Integer valor;
+    No filhoEsquerdo;
+    No filhoDireito;
+    No pai;
 
-    public No(T dado) {
-        this.dado = dado;
-        this.esquerdo = null;
-        this.direito = null;
+    public No(Integer valor, No pai){
+        this.valor = valor;
+        this.pai = pai;
+        this.filhoDireito = null;
+        this.filhoEsquerdo = null;
     }
-
-    public T getDado() { return dado; }
-    public void setDado(T dado) { this.dado = dado; }
-    public No<T> getEsquerdo() { return esquerdo; }
-    public void setEsquerdo(No<T> esquerdo) { this.esquerdo = esquerdo; }
-    public No<T> getDireito() { return direito; }
-    public void setDireito(No<T> direito) { this.direito = direito; }
 }
